@@ -343,7 +343,7 @@ def generate_backup(sql_output: str, console: Console, practice_label: str) -> N
             console.print(f"[bold {accent}]Opción no válida. Por favor, ingresa y o n.[/bold {accent}]")
     
     if choice != 'y':
-        console.print(f"[bold {green_medium}]No pues está cañon lasjdflksjaldskjf.[/bold {green_medium}]")
+        console.print(f"[bold {green_medium}]Respaldo cancelado.[/bold {green_medium}]")
         return
 
     # Creamos los directorios de respaldo y copiamos los archivos a las rutas de respaldo
